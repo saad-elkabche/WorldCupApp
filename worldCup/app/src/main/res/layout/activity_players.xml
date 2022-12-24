@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".players_Activity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardteam"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="80dp"
+        app:cardElevation="18dp"
+        android:transitionName="cardView"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTeam"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="35dp"
+                android:scaleType="center"
+                android:transitionName="imgTeam" />
+
+            <TextView
+                android:id="@+id/NameTeam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imgTeam"
+                android:fontFamily="@font/andada"
+
+                android:textAlignment="center"
+                android:textColor="@color/Darkgray"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="nameTeam" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <GridView
+        android:id="@+id/gridPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="12dp"
+        android:horizontalSpacing="12dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_above="@id/BannerBox"
+        />
+
+    <RelativeLayout
+
+        android:id="@+id/BannerBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"></RelativeLayout>
+
+</RelativeLayout>

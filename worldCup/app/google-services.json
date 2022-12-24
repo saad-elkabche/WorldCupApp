@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "344891294339",
+    "firebase_url": "https://world-cup-342e4-default-rtdb.firebaseio.com",
+    "project_id": "world-cup-342e4",
+    "storage_bucket": "world-cup-342e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344891294339:android:3158da97aaadd55a2d91b6",
+        "android_client_info": {
+          "package_name": "com.example.populate_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344891294339-gn6i07ja1s1veujsclpfkhqqafih90d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMm25g_9PjaQQ58WVnzc_plzV9E9kKaNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344891294339-gn6i07ja1s1veujsclpfkhqqafih90d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344891294339:android:4454593a25da189f2d91b6",
+        "android_client_info": {
+          "package_name": "com.saadev.worldcup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344891294339-gn6i07ja1s1veujsclpfkhqqafih90d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMm25g_9PjaQQ58WVnzc_plzV9E9kKaNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344891294339-gn6i07ja1s1veujsclpfkhqqafih90d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

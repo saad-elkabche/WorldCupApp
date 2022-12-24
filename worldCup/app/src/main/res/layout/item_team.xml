@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="team"
+            type="com.saadev.worldcup.Team" />
+        <variable
+            name="clickListener"
+            type="com.saadev.worldcup.other.ClickListeneronTeams" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="80dp"
+        app:cardElevation="18dp"
+        android:clickable="true"
+        android:tag="@{team.id}"
+        android:onClick="@{(rootView)->clickListener.onclicks(rootView)}"
+        android:transitionName="cardView"
+        android:layout_marginBottom="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTeam"
+                teamImage="@{team.logo}"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="35dp"
+               android:scaleType="center"
+                android:transitionName= "imgTeam"/>
+
+            <TextView
+                android:id="@+id/NameTeam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imgTeam"
+                android:textColor="@color/Darkgray"
+                android:text="@{team.name}"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/andada"
+                android:transitionName="nameTeam"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
+

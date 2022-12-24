@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">World Cup 2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guide">You have to choose your time zone in order to show you the matches in your local time</string>
+    <string name="App_AdMob_Id">ca-app-pub-7825877250930549~5862525836</string>
+    <string name="Banner_MainActivity">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="InterstitialAd">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
